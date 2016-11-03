@@ -1,0 +1,266 @@
+@font-face {
+      font-family: "bebas";
+      src: url("fonts/BebasNeue.otf") format("truetype");
+    font-weight: normal;
+    font-style:normal;
+      }
+@font-face {
+      font-family: "helvetica neue";
+      src: url("fonts/HelveticaNeueLTStd Lt.otf") format("truetype");
+    font-weight: normal;
+    font-style:normal;
+      }
+.wow{
+    visibility: hidden;
+}
+
+.title{
+    font-family: bebas;
+    font-size:50px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 109px;
+    margin-bottom: 58%;
+}
+
+.menu {
+    display: inline block;
+    width: 100%;
+    position:absolute;
+    margin-bottom: 70%;
+    margin-left: 10%;
+}
+.menu>a {
+    font-family: helvetica neue;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+#icons {
+    font-size: 24px;
+    color: white;
+    padding-right: 20px;
+    margin-top: 0%;
+}
+.carousel-caption{
+    position:relative;
+}
+.carousel-caption h1 {
+    font-family: bebas;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.img-slide-1 {
+    background: url(images/img-slide-1.jpg);
+    height: 100%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.img-slide-2 {
+    background: url(images/img-slide-2.jpg);
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.img-slide-3 {
+    background: url(images/barbeiros-fundo.png);
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+/************SOBRE***********/
+
+
+.img-barbeiros {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: inline-flex;   
+}
+.b1 {
+    background: url(images/barbeiro-1.png);
+    width: 150px;
+    height: 150px;
+    margin-right: 55px;
+}
+
+.diversos{
+    background: url(images/fundo-direita1.jpg);
+    height:80%;
+    background-size:cover;
+    position:relative;
+}
+
+.precos-horarios {
+    background-color: rgba(50, 80, 55, 0.83);
+    height: 70%; 
+    color:white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2f1d07;
+    position:absolute;
+    margin-top:5%;
+    margin-left:5.5%;
+        
+}
+.precos-horarios h1{
+    margin-left:30%;
+}
+.navalha{
+    background: url(images/navalha.png);
+    width:103px;
+    height:110px;
+    margin-left: -7%;
+    margin-right:45%;
+    border-style: solid;
+    border-radius: 50%;    
+    
+}
+.relogio{
+    background: url(images/rel%C3%B3gio.png);
+    width:103px;
+    height:110px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.icones {
+    margin-top: 3%;
+    margin-left: 15%;    
+    display: inline-flex;
+}
+.texto{
+    font-style:italic;
+    font-size: 18px;
+    color:#848484;
+    margin-top: 5%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+/************GALERIA***********/
+.galeria{
+    height:100%;
+    margin-bottom: 2%;
+   
+}
+.titulo-galeria {
+    background: url(images/tracado.png);
+    width: 975px;
+    height: 58px;
+    position: relative;
+    
+}
+.titulo-galeria div h1 {
+    position: absolute;
+    background-color: white;
+    margin-top: 5%;
+    
+}
+.l1 {
+    margin-top: 52px;
+    display: inline-flex;
+}
+.l2 {
+    margin-top: 5px;
+    display: inline-flex;
+}
+.imagem1 {
+    background: url(images/img-1.jpg);
+    width: 289px;
+    height: 272px;
+    margin-right: 10px;
+}
+.imagem2 {
+    background: url(images/img-2.jpg);
+    width: 269px;
+    height: 272px;
+    margin-right: 10px;
+}
+.imagem3 {
+    background: url(images/img-3.jpg);
+    width: 400px;
+    height: 273px;
+}
+.imagem4 {
+    background: url(images/img-4.jpg);
+    width: 290px;
+    height: 260px;
+    margin-right: 10px;
+}
+.imagem5 {
+    background: url(images/img-5.jpg);
+    width: 269px;
+    height: 260px;
+    margin-right: 10px;
+}
+.imagem6 {
+    background: url(images/img-6.jpg);
+    width: 400px;
+    height: 260px;
+}
+
+.localizacao{
+    display: inline-flex;
+}
+#googleMap{
+    width:100%;   
+    height:55%;        
+}
+/***********CONTATO*********/
+
+.fundo-contato {
+    background: url(images/fundo-contato.png);
+    background-size: cover;
+    height: 100%;
+    position:relative;
+}
+.agende{
+    color:white;
+    text-align: center;
+}
+.form-control{
+    max-width: 50%;
+    min-width: 10%;
+    margin-bottom: 1%;    
+}
+.texto-form{
+    color:white;
+    
+}
+
+
+.botao{
+    background-color:#f04444;
+    color:white;
+    box-shadow:4px 4px 4px #292929;
+}
+
+
+
+
+
+
+/************FOOTER***********/
+footer{
+    background-color: #313131;
+    background-size:cover;
+    height:5%;
+    margin-top: 5%;
+}
+footer h5{
+    color:white;
+    text-align: center;
+    
+    
+}
