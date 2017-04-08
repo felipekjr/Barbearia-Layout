@@ -1,6 +1,6 @@
-#Primeiro Site
-###Tecnologias Utilizadas:
-*Bootstrap, 
-*WoW.js, 
-*JQuery, 
-*GoogleMapsAPI.
+# Primeiro Site
+### Tecnologias Utilizadas:
+* Bootstrap, 
+* WoW.js, 
+* JQuery, 
+* GoogleMapsAPI.
