@@ -5,44 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
-    <section>   
-        <div id="carouselHome" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid" src="/images/img-slide-1.jpg" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>UM NOVO CONCEITO</h1>
-                        <p>BARBEARIA BLACK&WHITE</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 fullscreen-bg">     
+                <div class="video-overlay"></div>           
+                <video autoplay loop class="bg-video">                   
+                    <source src="/images/video_bg.webm" type="video/webm">                        
+                </video>
+                <div id="content" class="d-flex flex-column">
+                    <div class="col-md-12 d-flex p-5 flex-column align-items-center">
+                        <nav class="navbar navbar-expand-lg navbar-dark">                           
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                              <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="#">BARBEARIA <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="#">SERVIÇOS</a>
+                                <a class="nav-item nav-link" href="#">EQUIPE</a>                               
+                              </div>
+                            </div>
+                          </nav>       
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" src="/images/img-slide-2.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>SOBRE BARBEARIA</h1>
-                        <p>BARBEARIA BLACK&WHITE</p>
+                    <div class="col-md-12 d-flex flex-column align-items-center">
+                        <span id="home-title">BARBEARIA SEV7N</span>
+                        <div id="home-btn"class="col-md-4 col-xs-11 d-flex flex-column align-items-center justify-content-center">
+                            <h5>AGENDE SEU HORÁRIO <i class="far fa-eye fa-lg"></i></h5>
+                            
+                        </div>
                     </div>
-                </div>               
+                </div>                    
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xs-12 d-flex flex-column">
-                    <h1>SOBRE</h1>                   
-                </div>
+        </div>  
+        <div class="row">
+            <div class="col-md-12 d-flex flex-column align-items-center">
+                <h1 class="title">BARBEARIA</h1>
             </div>
-        </div>
-
-    </section>
+        </div>      
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
