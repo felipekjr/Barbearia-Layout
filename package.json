@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/felipekjr/Barbearia-Black-White#readme",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3"
   },

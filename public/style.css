@@ -10,6 +10,10 @@
     font-weight: normal;
     font-style:normal;
 }
+body{
+  overflow-x: hidden;
+}
+
 a{
   font-size: 12px;
   font-family: helvetica neue;
@@ -18,14 +22,14 @@ a{
 i{
   color: #be9342;
 }
-h5{
+#home-btn>h5{
   font-family: helvetica neue;
   color: white !important;
   letter-spacing: 2px;
 }
 .title{
   font-family: bebas !important;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;    
 }
 .fullscreen-bg {
   position: fixed;
@@ -57,6 +61,7 @@ h5{
 }
 #title-content{
   margin-bottom: 60px;
+  animation-duration: 2s;
 }
 #home-title{
   font-size: 54px;
@@ -64,11 +69,14 @@ h5{
   font-weight: 900;
   letter-spacing: 15px;
   color: white;  
+  animation-duration: 3s; 
+  animation-delay: 10s;
 }
 #home-btn{
   background-color: #be9342;
   color: white;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 #home-box{  
@@ -76,7 +84,38 @@ h5{
   background-color: rgb(255, 255, 255, 0.1);     
   padding: 30px;
   margin-bottom: 0px;
+  animation-delay: 500ms;
+  animation-duration: 1.5s;
 }
- 
 
 
+.parallax {
+  background-image: url("./images/img01.jpg");  
+  width: 100vw;
+  height: 100vh;   
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .team-member>img{
+  width: 100%;
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+ }
+.team-member>img:hover{
+  animation: hoverImg 800ms;
+}
+
+.footer{
+  background-color: #151515;
+  height: 70px;
+}
+.footer > div {
+  color: white;
+}
+
+@keyframes hoverImg{
+  from{filter: grayscale(100%);}
+  to{filter: grayscale(0%);}
+}
